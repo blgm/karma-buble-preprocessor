@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/blgm/karma-buble-preprocessor.svg?branch=master)](https://travis-ci.org/blgm/karma-buble-preprocessor)
+[![npm](https://img.shields.io/npm/v/karma-buble-preprocessor.svg)](https://www.npmjs.com/package/karma-buble-preprocessor)
 [![Dependencies](https://david-dm.org/blgm/karma-buble-preprocessor.svg)](https://david-dm.org/blgm/karma-buble-preprocessor)
 [![Greenkeeper badge](https://badges.greenkeeper.io/blgm/karma-buble-preprocessor.svg)](https://greenkeeper.io/)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)

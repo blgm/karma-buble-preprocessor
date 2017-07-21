@@ -3,6 +3,8 @@
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 # karma-buble-preprocessor
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/blgm/karma-buble-preprocessor.svg)](https://greenkeeper.io/)
 A [Karma preprocessor](http://karma-runner.github.io/1.0/config/preprocessors.html) for the [Bublé ES2015+ compiler](http://buble.surge.sh/guide/).
 
 ## Installation

@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/blgm/karma-buble-preprocessor.svg?branch=master)](https://travis-ci.org/blgm/karma-buble-preprocessor)
-[![Dependencies](https://david-dm.org/blgm/karma-buble-preprocessor.svg)](https://david-dm.org/blgm/karma-buble-preprocessor)
 [![npm](https://img.shields.io/npm/v/karma-buble-preprocessor.svg)](https://www.npmjs.com/package/karma-buble-preprocessor)
+[![Dependencies](https://david-dm.org/blgm/karma-buble-preprocessor.svg)](https://david-dm.org/blgm/karma-buble-preprocessor)
+[![Greenkeeper badge](https://badges.greenkeeper.io/blgm/karma-buble-preprocessor.svg)](https://greenkeeper.io/)
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 # karma-buble-preprocessor
@@ -27,8 +28,8 @@ module.exports = function(config) {
 
 ## Purpose
 The preprocessor will use [Bublé](http://buble.surge.sh/guide/) to transpile JavaScript ES2015+ format into
-ES5 format suitable for older browsers.  [Bublé](http://buble.surge.sh/guide/) is still experimental, and this
-preprocessor will aim to be forward looking in relation to [Bublé](http://buble.surge.sh/guide/) versions.
+ES5 format suitable for older browsers.  Bublé is still experimental, and this
+preprocessor will aim to be forward looking in relation to Bublé versions.
 
 ## License
 See [LICENSE.md](LICENSE.md)

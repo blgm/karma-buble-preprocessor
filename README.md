@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/blgm/karma-buble-preprocessor.svg?branch=master)](https://travis-ci.org/blgm/karma-buble-preprocessor)
+[![Dependencies](https://david-dm.org/blgm/karma-buble-preprocessor.svg)](https://david-dm.org/blgm/karma-buble-preprocessor)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 # karma-buble-preprocessor
 A [Karma preprocessor](http://karma-runner.github.io/1.0/config/preprocessors.html) for the [Bublé ES2015+ compiler](http://buble.surge.sh/guide/).
 

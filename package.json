@@ -1,0 +1,48 @@
+{
+  "name": "karma-buble-preprocessor",
+  "version": "0.0.1",
+  "description": "A Karma preprocessor for the Buble ES2015+ compiler",
+  "main": "preprocessor.js",
+  "devDependencies": {
+    "jest": "^19.0.2",
+    "standard": "^10.0.2"
+  },
+  "scripts": {
+    "pretest": "standard --verbose",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blgm/karma-buble-preprocessor.git"
+  },
+  "keywords": [
+    "karma",
+    "buble",
+    "preprocessor",
+    "ES2015"
+  ],
+  "author": "George Blue",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blgm/karma-buble-preprocessor/issues"
+  },
+  "homepage": "https://github.com/blgm/karma-buble-preprocessor#readme",
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "text-summary",
+      "html"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  },
+  "dependencies": {
+    "buble": "^0.15.2"
+  }
+}

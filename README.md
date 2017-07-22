@@ -28,8 +28,8 @@ module.exports = function (config) {
 
 ## Purpose
 The preprocessor will use [Bublé](http://buble.surge.sh/guide/) to transpile JavaScript ES2015+ format into
-ES5 format suitable for older browsers.  Bublé is still experimental, and this
-preprocessor will aim to be forward looking in relation to Bublé versions.
+ES5 format suitable for older browsers.  Bublé is still experimental, and this preprocessor will aim for
+compatibility with the latest Bublé version.
 
 ## License
 See [LICENSE.md](LICENSE.md)

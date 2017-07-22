@@ -17,9 +17,8 @@
     "url": "git+https://github.com/blgm/karma-buble-preprocessor.git"
   },
   "keywords": [
-    "karma",
+    "karma-preprocessor",
     "buble",
-    "preprocessor",
     "ES2015"
   ],
   "author": "George Blue",

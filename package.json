@@ -5,10 +5,11 @@
   "main": "preprocessor.js",
   "devDependencies": {
     "jest": "^20.0.4",
-    "standard": "^10.0.2"
+    "standard": "^10.0.2",
+    "standard-markdown": "^4.0.1"
   },
   "scripts": {
-    "pretest": "standard --verbose",
+    "pretest": "standard --verbose && standard-markdown",
     "test": "jest"
   },
   "repository": {

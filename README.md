@@ -15,14 +15,14 @@ npm install --save-dev karma-buble-preprocessor
 
 ## Configuration
 Just add it to the `preprocessors` section of your [Karma configuration file](http://karma-runner.github.io/1.0/config/configuration-file.html), for instance:
-```
+```javascript
 // karma.conf.js
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
     preprocessors: {
       'test/*.js': ['buble']
-    },
-...
+    }
+  })
 }
 ```
 

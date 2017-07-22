@@ -10,11 +10,11 @@
     "standard-markdown": "^4.0.1"
   },
   "scripts": {
-    "pretest": "npm run lint && npm run markdown:lint && npm run markdown:links",
-    "lint": "standard --verbose",
+    "pretest": "standard --verbose",
+    "test": "jest",
+    "posttest": "npm run markdown:lint && npm run markdown:links",
     "markdown:lint": "standard-markdown",
-    "markdown:links": "ls -1 *.md | xargs -n 1 markdown-link-check",
-    "test": "jest"
+    "markdown:links": "ls -1 *.md | xargs -n 1 markdown-link-check"
   },
   "repository": {
     "type": "git",

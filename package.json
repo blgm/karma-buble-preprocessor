@@ -5,12 +5,16 @@
   "main": "preprocessor.js",
   "devDependencies": {
     "jest": "^20.0.4",
+    "markdown-link-check": "^3.1.1",
     "standard": "^10.0.2",
     "standard-markdown": "^4.0.1"
   },
   "scripts": {
-    "pretest": "standard --verbose && standard-markdown",
-    "test": "jest"
+    "pretest": "standard --verbose",
+    "test": "jest",
+    "posttest": "npm run markdown:lint && npm run markdown:links",
+    "markdown:lint": "standard-markdown",
+    "markdown:links": "ls -1 *.md | xargs -n 1 markdown-link-check"
   },
   "repository": {
     "type": "git",

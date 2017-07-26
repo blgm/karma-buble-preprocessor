@@ -18,16 +18,22 @@ Just add it to the `preprocessors` section of your [Karma configuration file](ht
 module.exports = function (config) {
   config.set({
     preprocessors: {
-      'test/*.js': ['buble']
+      'test/**/*.js': ['buble']
     }
   })
 }
 ```
 
 ## Purpose
-The preprocessor will use [Bublé](http://buble.surge.sh/guide/) to transpile JavaScript ES2015+ format into
-ES5 format suitable for older browsers.  Bublé is still experimental, and this preprocessor will aim for
-compatibility with the latest Bublé version.
+This preprocessor uses [Bublé](http://buble.surge.sh/guide/) to transpile JavaScript ES2015+ into
+ES5 suitable for older runtimes.
+- Bublé will not handle `import` statements in the code, so consider using a packager such as
+ [karma-rollup-preprocessor](https://www.npmjs.com/package/karma-rollup-preprocessor) instead.
+- The result of the transpilation is not saved, so for implementation code, consider using
+ [buble-loader](https://www.npmjs.com/package/buble-loader) in
+ [webpack](https://www.npmjs.com/package/webpack), or
+ [rollup-plugin-buble](https://www.npmjs.com/package/rollup-plugin-buble) in
+ [rollup](https://www.npmjs.com/package/rollup), so that the tests are run on what is shipped.
 
 ## License
 See [LICENSE.md](LICENSE.md)

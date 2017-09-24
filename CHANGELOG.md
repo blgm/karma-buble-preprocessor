@@ -2,3 +2,4 @@
 #### 0.15.2 - Initial release, matching `buble@0.15.2`
 #### 1.0.0 - First major version number, with some documentation and packaging changes
 #### 1.0.1 - Improved instructions
+#### 1.2.0 - Update to `buble@0.16.0`

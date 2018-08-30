@@ -66,7 +66,7 @@ describe('the karma buble preprocessor', () => {
 
     it('transforms ES2015 code', (done) => {
       const fakeContent = 'const fakeConst = 7'
-      const fakeFile = {originalPath: 'fakeFileName'}
+      const fakeFile = { originalPath: 'fakeFileName' }
 
       const fakeDone = (result) => {
         expect(result).toBe('var fakeConst = 7')

@@ -47,6 +47,6 @@
     }
   },
   "dependencies": {
-    "buble": "^0.19.7"
+    "buble": "^0.20.0"
   }
 }

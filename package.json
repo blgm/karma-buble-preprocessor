@@ -5,7 +5,7 @@
   "main": "preprocessor.js",
   "devDependencies": {
     "jest": "25.2.7",
-    "markdown-link-check": "3.8.0",
+    "markdown-link-check": "3.8.1",
     "standard": "14.3.3",
     "standard-markdown": "6.0.0"
   },

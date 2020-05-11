@@ -6,7 +6,7 @@
   "devDependencies": {
     "jest": "26.0.1",
     "markdown-link-check": "3.8.1",
-    "standard": "14.3.3",
+    "standard": "14.3.4",
     "standard-markdown": "6.0.0"
   },
   "scripts": {

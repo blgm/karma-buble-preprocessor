@@ -4,7 +4,7 @@
   "description": "A Karma preprocessor for the Buble ES2015+ compiler",
   "main": "preprocessor.js",
   "devDependencies": {
-    "jest": "26.6.0",
+    "jest": "26.6.1",
     "markdown-link-check": "3.8.3",
     "standard": "15.0.0",
     "standard-markdown": "6.0.0"

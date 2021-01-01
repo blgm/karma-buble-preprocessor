@@ -4,6 +4,10 @@
 # karma-buble-preprocessor
 A [Karma preprocessor](http://karma-runner.github.io/1.0/config/preprocessors.html) for the [Bublé ES2015+ compiler](http://buble.surge.sh/guide/).
 
+## Maintenance status
+As [Bublé](http://buble.surge.sh/guide/) is no longer under active development, there is no plan
+to add new features to this module. However critical security issues may be fixed.
+
 ## Installation
 To install as a `devDependency`:
 ```

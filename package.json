@@ -1,6 +1,6 @@
 {
   "name": "karma-buble-preprocessor",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "A Karma preprocessor for the Buble ES2015+ compiler",
   "main": "preprocessor.js",
   "devDependencies": {

@@ -7,7 +7,7 @@
     "jest": "27.0.6",
     "markdown-link-check": "3.8.7",
     "standard": "16.0.3",
-    "standard-markdown": "6.0.0"
+    "standard-markdown": "7.0.0"
   },
   "scripts": {
     "pretest": "standard --verbose",

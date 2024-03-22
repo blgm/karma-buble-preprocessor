@@ -1,5 +1,5 @@
 [![npm](https://img.shields.io/npm/v/karma-buble-preprocessor.svg)](https://www.npmjs.com/package/karma-buble-preprocessor)
-[![test](https://github.com/blgm/karma-buble-preprocessor/workflows/test/badge.svg?branch=master)](https://github.com/blgm/karma-buble-preprocessor/actions?query=workflow%3Atest+branch%3Amaster)
+[![test](https://github.com/blgm/karma-buble-preprocessor/workflows/test/badge.svg?branch=main)](https://github.com/blgm/karma-buble-preprocessor/actions?query=workflow%3Atest+branch%3Amain)
 
 # karma-buble-preprocessor
 A [Karma preprocessor](http://karma-runner.github.io/1.0/config/preprocessors.html) for the [Bublé ES2015+ compiler](http://buble.surge.sh/guide/).
